@@ -1,1 +1,5 @@
-# dezoomcamp-workshop
+# Docker and PostgresSQL: Data Engineering Workshop
+
+
+
+
