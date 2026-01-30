@@ -9,7 +9,7 @@ inputs:
     displayName: Select taxi type
     values: [yellow, green]
     defaults: yellow
-
+    
   - id: year
     type: SELECT
     displayName: Select year

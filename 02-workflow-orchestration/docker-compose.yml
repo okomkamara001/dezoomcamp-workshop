@@ -5,7 +5,7 @@ volumes:
     driver: local
   kestra_data:
     driver: local
-
+    
 services:
   pgdatabase:
     image: postgres:18
@@ -17,7 +17,7 @@ services:
       - "5432:5432"
     volumes:
       - ny_taxi_postgres_data:/var/lib/postgresql
-
+      
   pgadmin:
     image: dpage/pgadmin4
     environment:
@@ -25,7 +25,7 @@ services:
       - PGADMIN_DEFAULT_PASSWORD=root
     ports:
       - "8086:80"
-
+      
   kestra_postgres:
     image: postgres:18
     volumes:
